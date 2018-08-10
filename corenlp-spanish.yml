@@ -1,0 +1,7 @@
+version: "3.1"
+services:
+  tagger:
+    image: corenlp-spanish
+    ports:
+      - 9000:9000
+    restart: always
